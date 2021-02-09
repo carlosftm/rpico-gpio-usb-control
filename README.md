@@ -17,3 +17,5 @@ This is the list of additional commands:
 - '0','1','2','3': To control GPIO-0 to GPIO-3 respectively
 
 To obtain help, the user needs to type '?'. The same message appears after the board is booted and the on-board LED flashed for some second as booting up indication. 
+
+The software might be over engineered as such a simple functionality could be done by just mapping strings to functions. But the idea is to have fun programming and take the chance to make use of software enginiering concepts like the finite state machine (FSM) used in this example.
